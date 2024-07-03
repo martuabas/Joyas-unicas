@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Galeria</title>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"/>
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+
+      <a href="index.html"> 
+        <img src="img/logochico.png" id="logochico" alt="Logo de tu sitio">
+    </a>
+
+    <nav>
+      <ul class="menu">
+          <li><a href="galeriaursula.html">Stock</a></li>
+          <li><a href="formularioursula.html">Encargos</a></li>
+          <li><a href="">Showroom</a></li>
+          <li><a href="">Personalizados</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id=“bodygaleria”>
+
+  <div class="f-carousel" id="myCarousel">
+    <div class="f-carousel__slide">
+      <img src="img/ursula2.jpg">
+    </div>
+    <div class="f-carousel__slide">
+      <img src="img/ursula1.jpg">
+    </div>
+    <div class="f-carousel__slide">
+      <img src="img/ursula3.jpg">
+    </div>
+    <div class="f-carousel__slide">
+      <img src="img/ursula4.jpg">
+    </div>
+    <div class="f-carousel__slide">
+      <img src="img/ursula5.jpg">
+    </div>
+    <div class="f-carousel__slide">
+      <img src="img/ursula6.jpg">
+    </div>
+    <div class="f-carousel__slide">
+      <img src="img/ursula7.jpg">
+    </div>
+    <div class="f-carousel__slide">
+      <img src="img/ursula8.jpg">
+    </div>
+    <div class="f-carousel__slide">
+      <img src="img/ursula9.jpg">
+    </div>
+    <div class="f-carousel__slide">
+      <img src="img/ursula10.jpg">
+    </div>
+    <div class="f-carousel__slide">
+      <img src="img/ursula11.jpg">
+    </div>
+    <div class="f-carousel__slide">
+      <img src="img/ursula12.jpg">
+    </div>
+  </div>
+</div>
+
+  <script>
+    const container = document.getElementById("myCarousel");
+    const options = { infinite: false };
+    new Carousel(container, options);
+  </script>
+
+  <footer>
+    <p id="info">Martina Abas</p>
+  </footer>
+
+</body>
+</html>

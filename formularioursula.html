@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Formulario Úrsula
+	</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+  <a href="index.html"> 
+        <img src="img/logochico.png" id="logochico" alt="Logo de tu sitio">
+    </a>
+
+  <nav>
+    <ul class="menu">
+        <li><a href="galeriaursula.html">Stock</a></li>
+        <li><a href="formularioursula.html">Encargos</a></li>
+        <li><a href="">Showroom</a></li>
+        <li><a href="">Personalizados</a></li>
+    </ul>
+  </nav>
+ </header>
+
+
+	
+  <form method="post"> 
+    <h2> SOLICITUD DE ENCARGO DE JOYAS</h2>
+    <h3> Regístrate para hacer tu pedido</h3>
+    
+    <div>
+      <label for="nombre">Nombre </label>
+      <br>
+      <input type="text" name="nombre">
+    </div>
+
+    <div>
+      <label for="apellido">Apellido </label>
+      <br>
+      <input type="text" name="apellido">
+    </div>
+
+    <div>
+      <label for="mail">Mail </label>
+      <br>
+      <input type="text" name="mail">
+    </div>
+
+    <div>
+      <label for="contrasena">Contraseña </label>
+      <br>
+      <input type="password" name="contrasena">
+    </div>
+
+  <div>
+      <label for="contenido">¿Que tipo de joya te gustaría encargar?</label>
+      <br>
+      <input type="checkbox" name="contenido" value="moda">
+      <label>Collar</label>
+         <br>
+      <input type="checkbox" name="contenido" value="autos">
+      <label>Tobillera</label>
+         <br>
+      <input type="checkbox" name="contenido" value="tecnologia">
+      <label>Pulcera</label>
+         <br>
+      <input type="checkbox" name="contenido" value="comida">
+      <label>Chocker</label>
+         <br>
+      <input type="checkbox" name="contenido" value="deportes">
+      <label>Body Chain</label>
+         <br>
+    </div>
+
+
+    <div>
+      <label for="alergico">¿Sos alérgico a algún tipo de metal?</label>
+      <br>
+      <select name="genero">
+        <option value="femenino">Si </option>
+        <option value="masculino">No </option>
+      </select>
+    </div>
+
+
+    <div>
+      <label for="mayor">Específica a cuál</label>
+      <br>
+      <input type="radio" name="mayor" value="si">
+      <label>Oro</label>
+      <br>
+      <input type="radio" name="mayor" value="no">
+      <label>Plata</label>
+      <br>
+      <input type="radio" name="mayor" value="no">
+      <label>Acero quirúrgico</label>
+      <br>
+      <input type="radio" name="mayor" value="no">
+      <label>Alpaca</label>
+    </div>
+
+ 
+    <div>
+      <label for="biografia">Si lo querés personalizado, contanos un poco sobre cómo quieres que sea
+</label>
+      <br>
+      <textarea name="biografia"></textarea>
+    </div>
+
+    <div>
+      <input  type="checkbox" name="acepto">
+      <label for="acepto">Acepto Terminos y Condiciones</label>
+    </div>
+
+    <button class="boton-enviar" type="submit">Enviar</button>
+</form>
+
+<footer>
+  <p id="info">Martina Abas</p>
+</footer>
+
+
+</body>
+
+</html>
