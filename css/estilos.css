@@ -1,0 +1,132 @@
+* {
+    margin: 0px;
+  pad: 0px;
+  box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color: #d2c3e0;
+    padding: 20px 30px;
+    text-align: center;
+      border: 2px solid #53348F;
+}
+
+
+#logochico {
+    height: 60px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu {
+    color: black;
+    font-family: 'Inknut Antiqua', serif;
+    font-weight: 900;
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+nav {
+    display: inline-block;
+    margin-left: 30%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.fotoyfondo{
+    background-image: url(../img/fondo.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+    margin: 0px;
+}
+
+.logogrande {
+    margin: auto;
+    width: 40%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+footer {
+  border: 2px solid #53348F;
+    width: 100%;
+    background-color: #ffdbbd;
+    padding: 10px 0; 
+    position: relative;
+    bottom: 0;
+
+}
+
+
+#info {
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 15px;
+}
+
+
+.f-carousel__slide img {
+     width: 500px; 
+  height: auto;
+   max-width: 100%; 
+  }
+
+  
+.f-carousel__slide {
+    align-self: center;
+      display: flex; 
+  justify-content: center; 
+  align-items: center;
+  text-align: center;
+  background-color: #F5F5DC
+}
+   
+  
+#bodygaleria{
+    background-color: #D2C2E1;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 0px;
+}
+  
+
+
+h2{
+  margin-bottom: 20px;
+  color: #53348F ;
+}
+
+h3{
+  margin-bottom: 20px;
+  color: #53348F ;
+}
+div{
+  margin-bottom: 15px;
+}
+
+
+form{
+  background: #FDDBBC;
+  padding: 40px;
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  border: solid 1px black;
+  font-family: 'Roboto', sans-serif;
+}
+  
